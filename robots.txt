@@ -1,0 +1,6 @@
+Sitemap: http://www.matthewadamsphilosophy.net/sitemap.xml
+Sitemap: http://www.matthewadamsphilosophy.net/news-sitemap.xml
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

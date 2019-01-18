@@ -1,0 +1,388 @@
+/*
+Theme Name: Matthew Adams
+*/
+
+
+
+body {
+	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+	/*background-color: #ffffff;*/
+	background-color: rgb(248, 248, 247);
+	color: #545454;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 700; }
+
+h1 { font-size: 35px; margin-bottom: 30px; margin-top: 30px; }
+
+.author-avatar img { -webkit-border-radius: 95px; -moz-border-radius: 95px; border-radius: 95px; }
+
+
+/* Paragraph & Typographic */
+p { font-size: 16px; line-height: 28px; margin-bottom: 25px; font-family:Garamond, Georgia, serif; text-align: justify; }
+
+.centered { text-align: center; }
+
+/* Links */
+a {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	color: #979798;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+	word-wrap: break-word;
+}
+
+a:hover,
+a:focus { color: #f45b5b; outline: 0; text-decoration: none; }
+
+a:before,
+a:after {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #ccc;
+	display: block;
+	height: 1px;
+	margin: 1em 0;
+	padding: 0;
+}
+
+
+.navbar { 
+	margin-bottom: 0px; text-transform: uppercase; 
+}
+
+
+.navbar-inverse { 
+	/*padding-bottom: 70px; padding-top: 70px; */
+	border-color: transparent !important;
+}
+
+.navbar .container {
+	width: 90%;
+	padding-top: 30px;
+}
+
+.navbar-inverse { 
+	background-color: transparent; 
+	border-color: #16a085; 
+}
+
+.navbar-inverse .navbar-nav > li > a { 
+	color: #222; 
+}
+
+.navbar-inverse .navbar-nav > li > a:hover { 
+	color: #222222; 
+}
+
+.navbar li {
+	float: left;
+	padding: 25px 15px;
+}
+
+.navbar-brand { font-size: 20px; font-weight: 700; letter-spacing: 2px; }
+
+.navbar-inverse .navbar-brand { color: #f45b5b; font-family:Garamond, Georgia, serif; }
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus  {
+	color: #333;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: #f45b5b;
+}
+
+.navbar-inverse .navbar-toggle { border-color: transparent; }
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover { background-color: transparent; color: #222222; }
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { background-color: transparent; color: #222222; }
+
+.progress-bar-theme { background-color: #aaaaaa; }
+
+.navbar-brand {
+	padding: 25px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	padding: 0 0 3px 0;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #222;
+	border-radius: 0;
+	    position: relative;
+	    top: 8px;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: transparent;
+	outline: none;
+}
+
+.navbar li a {
+	text-decoration: none;
+	position: relative;
+	color: #f45b5b;
+	padding-bottom: 5px;
+}
+
+.navbar li a:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	border-bottom: 1px solid #f45b5b;
+	transition: 0.4s;
+}
+
+.navbar li a:hover:after {
+	width: 100%;
+}
+
+.navbar li.current_page_item a {
+	border-bottom: 1px solid #f45b5b;
+}
+
+/* Helpers */
+
+.mt { margin-bottom: 40px; margin-top: 40px; }
+
+.pt { padding-bottom: 50px; padding-top: 50px; }
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww { padding-bottom: 70px; padding-top: 70px; }
+
+
+#footer { 
+	padding-bottom: 15px; padding-top: 20px;
+	clear: both;
+	/*position: absolute;*/
+	margin-top: 10px;
+	width: 100%;
+	bottom: 0;
+}
+
+#footer p { color: #222; }
+
+#footer h4 { color: #222; padding-bottom: 20px; text-transform: uppercase; }
+
+#footer .container {
+	border-top: 1px solid #f45b5b;
+	padding: 60px 0 5px 0;
+	width: 90%;
+}
+
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey { background-color: #f2f2f2; padding-bottom: 60px; padding-top: 60px; }
+
+#white { background-color: #ffffff; padding-bottom: 60px; padding-top: 60px; }
+
+.home #footer {
+	position: relative;
+}
+
+/* Blog Date*/
+bd {
+	color: #d2d2d2;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/*Research Page*/
+.page-id-14 .post-entry {
+	column-count: 2;
+	column-gap: 50px;
+}
+
+/* Blog Author*/
+ba { font-size: 12px; padding-left: 5px; text-transform: uppercase; }
+
+/* Blog Quote */
+.bq { font-size: 22px; padding-top: 30px; }
+
+/* Blog Tags */
+bt { font-size: 12px; }
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom { 
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+    background:transparent url(images/loader.gif) no-repeat center;
+}
+
+
+.zoomOverlay {
+    position:absolute;
+    top:0; left:0;
+    bottom:0; right:0;
+    display:none;
+    background-image:url(images/zoom.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.zoom2 {
+	opacity: 1;
+}
+
+.zoom2:hover {
+	opacity: 0.5;
+}
+
+.post-edit, 
+.post-edit-link {
+	display: none;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon { color: #aaaaaa; font-size: 40px; }
+
+/* WP User Avatar */
+
+.wp-user-avatar {margin: 0;}
+
+/* General Page Structure */
+
+.post-entry {
+	text-align: left;
+}
+.post-entry p a {
+	background-image: url('http://www.matthewadamsphilosophy.net/wp-content/uploads/2016/10/paper-clip.svg');
+	background-repeat: no-repeat;
+	padding-left: 35px; 
+	display: block;  
+	background-size: 24px;
+
+}
+.post-entry .content-contact p a {
+	background-image: none;
+	padding-left: 0;
+	display: inline-block;
+	/*border-bottom: 1px solid #f45b5b;*/
+}
+.content-contact {
+	margin-bottom: 30px;
+}
+.content-contact p {
+	margin-bottom: 0;
+}
+.home .home-text {
+	width: 50%;
+	float: left;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 25px;
+	font-family: Garamond, Georgia, serif;
+	text-align: justify;
+}
+.space {
+	padding: 10px;
+}
+.home .post-entry .wp-caption {
+	width: 45% !important;
+	float: left;
+	margin-left: 5%;
+	border: none;
+}
+.home .post-entry .wp-caption {
+	background-color: transparent;
+	padding: 0;
+}
+.home .post-entry p.wp-caption-text {
+	width: 100%;
+	padding-top: 10px;
+}
+#footer .textwidget p {
+	text-align: left;
+	color: #979798;
+}
+
+/* Contact Page */
+
+@media (max-width: 768px) {
+	.navbar-inverse .navbar-nav>li>a {
+		padding-top: 10px;
+		font-size: 14px;
+	}
+	.navbar-inverse .navbar-collapse {
+		border-color: transparent;
+	}
+	.home .post-entry p {
+		width: 100%;
+		float: none;
+	}
+	.home .post-entry .wp-caption {
+		width: 100% !important;
+		float: none;
+		margin-left: 0;
+		clear: both;
+	}
+	.wp-caption img {
+		max-width: 100%;
+	}
+	#footer {
+		position: relative;
+	}
+	#ww {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.home .home-text {
+		width: 100%;
+	}
+	.navbar li {
+		padding: 10px;
+	}
+	.navbar li:first-of-type {
+		padding-left: 0;
+	}
+	.navbar li:last-of-type {
+		padding-right: 0;
+	}
+	.container {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	.page-id-14 .post-entry {
+		column-count: 1;
+	}
+}
+
+@media (max-width: 480px) {
+	.navbar-inverse .navbar-toggle {
+		margin-right: 0;
+	}
+	.navbar-inverse .navbar-brand {
+		font-size: 18px;
+		padding-bottom: 0;
+		padding-left: 0;
+	}
+	.navbar .container {
+		padding-top: 20px;
+	}
+}
