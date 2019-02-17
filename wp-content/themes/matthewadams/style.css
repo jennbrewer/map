@@ -272,7 +272,7 @@ bt { font-size: 12px; }
 	text-align: left;
 }
 .post-entry p a {
-	background-image: url('http://www.matthewadamsphilosophy.net/wp-content/uploads/2016/10/paper-clip.svg');
+	background-image: url('../../../wp-content/uploads/2016/10/paper-clip.svg');
 	background-repeat: no-repeat;
 	padding-left: 35px; 
 	display: block;  
