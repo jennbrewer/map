@@ -25,7 +25,7 @@ h1 { font-size: 35px; margin-bottom: 30px; margin-top: 30px; }
 
 
 /* Paragraph & Typographic */
-p { font-size: 16px; line-height: 28px; margin-bottom: 25px; font-family:Garamond, Georgia, serif; text-align: justify; }
+p { font-size: 16px; line-height: 28px; margin-bottom: 25px; font-family:Garamond, Georgia, }
 
 .centered { text-align: center; }
 
